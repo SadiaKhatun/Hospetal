@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!--menu start-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+          <li class="nav-item" >
+              <a class="nav-link" href="doctor.html">Doctor's</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Centre.html">Center</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a>
+          </li>
+              <div class="dropdown">
+                  <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">
+                    Dropdown button
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.amzhospitalbd.com/department-list">Hospital</a></li>
+                    <li><a class="dropdown-item" href="https://www.amzhospitalbd.com/doctor-list">doctor</a></li>
+                    <li><a class="dropdown-item" href="https://www.amzhospitalbd.com/department-list">Department</a></li>
+                    
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">
+                    Video
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://youtu.be/n6gZrLEq5Mo">Video1</a></li>
+                    <li><a class="dropdown-item" href="https://youtu.be/K1Mf_oV1udo">Video 2</a></li>
+                    <li><a class="dropdown-item" href="https://youtu.be/ENs-f-JDmW0">Video 3</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">
+                  video2
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://youtu.be/lcooM4H7-rc">video 1</a></li>
+                  <li><a class="dropdown-item" href="https://youtu.be/Bhd0fZqBsEE">video 2</a></li>
+                  <li><a class="dropdown-item" href="https://youtu.be/gWbKD-jHHMk">video 3</a></li>
+                </ul>
+              </div>
+              </div>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>  
+      <!--pic-map-->
+      <div class="row">
+        <div class="col-sm-1"></div>     
+        <div class="col-sm-10">
+            <img src="img/map2.jpg" alt="" width="1100px" height="500px">
+        </div>
+        <div class="col-sm-1"></div> 
+      </div>
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <form action="/action_page.php" width>
+            <div class="m-5">
+              <label for="email" class="form-label">Your name:</label>
+              <input type="email" class="form-control" id="email" placeholder="Your name" name="name">
+            </div>
+         
+            <div class="row">
+                <div class="col">
+                    <label for="email" class="form-label" >Email:</label>
+                  <input type="text" class="form-floating" placeholder="Enter email" name="email">
+                </div>
+                <div class="col">
+                    <label for="email" class="form-label">Password:</label>
+                  <input type="password" class="form-floating" placeholder="Enter password" name="pswd">
+                </div>
+              </div>
+              <!--serial-->
+              <label for="Serial" >Serial:</label>
+              <div class="form-floating">
+                <select class="form-select" id="sel1" name="sellist">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+                <label for="sel1" class="form-label">Select list (select one):</label>
+              </div>
+            <div class=" comment mb-3 mt-3">
+                <label for="comment">Comments:</label>
+                <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+              </div>
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+              </label>
+            </div>
+            <div class="sbutton">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            
+          </form>
+          <div class="col-sm-2"></div>
+      </div>
+        <!--footer-->
+        <footer>
+            <div class="mt-5 p-4 bg-dark text-white text-center">
+                <p>Contect-Us</p>
+                <div class="btn-group btn-group-lg">
+                    <!--transport-->
+                    <button type="button" class="btn btn-dark">  
+                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" bg-white title="017.........,018........">Mobail</a>
+                    </button>
+                    <button type="button" class="btn btn-dark">
+                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" bg-white title="Hooray@gmail.com">Email</a>
+                    </button>
+                    <button type="button" class="btn btn-dark">
+                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" bg-white title="019....">Whatsup</a>
+                    </button>
+                    <button type="button" class="btn btn-dark" >
+                        <a href="#" data-bs-toggle="tooltip" bg-white data-bs-placement="bottom" title="Hooray!">View</a>
+                    </button>
+                    <button type="button" class="btn btn-dark">
+                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="1 2 3 ">
+                            Serial
+                        </a>
+                    </button>
+                  </div>
+              </div>
+          </footer>
+          
+
+</body>
+</html>

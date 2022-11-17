@@ -16,3 +16,27 @@
 .tex{
     text-align: center;
 }
+/*map-contact*/
+.form-control{
+ margin-left: 15px;
+ 
+}
+.comment{
+    margin-left: 40px;
+}
+.form-check{
+    margin-left: 40px;
+}
+.sbutton{
+    margin-left: 50px;
+}
+.form-floating{
+    margin-left: 50px;
+}
+
+label{
+    margin-left: 50px;
+}
+.Serial{
+    margin-bottom: 20px;
+}
